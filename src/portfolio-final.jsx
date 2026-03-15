@@ -343,7 +343,7 @@ function Footer({ isMobile }) {
       <span>Stockholm, Sweden</span>
       <div style={{ display: "flex", gap: 24 }}>
         <span style={{ cursor: "pointer", color: "rgba(255,255,255,0.4)" }}>LinkedIn</span>
-        <span style={{ cursor: "pointer", color: "rgba(255,255,255,0.4)" }}>karl@lindahl.se</span>
+        <span style={{ cursor: "pointer", color: "rgba(255,255,255,0.4)" }}>lindahl.karl@gmail.com</span>
       </div>
     </footer>
   );
@@ -535,7 +535,7 @@ function AboutPage({ isMobile }) {
         </div>
         <div style={{ marginTop: 48, padding: isMobile ? "24px" : "32px", background: "rgba(255,255,255,0.02)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.06)" }}>
           <p style={{ fontSize: 14, color: isMobile ? "rgba(255,255,255,0.68)" : "rgba(255,255,255,0.5)", margin: 0, lineHeight: 1.7 }}>
-            Currently on parental leave, returning August 2026. Looking for senior product design, UX/UI, or design lead roles in Stockholm. karl@lindahl.se
+            Currently on parental leave, returning August 2026. Looking for senior product design, UX/UI, or design lead roles in Stockholm. lindahl.karl@gmail.com
           </p>
         </div>
       </main>
@@ -549,19 +549,25 @@ function ContactPage({ isMobile }) {
     <main style={{ padding: `${isMobile ? 64 : 120}px ${px}px 80px`, maxWidth: 600 }}>
       <h1 style={{ fontSize: isMobile ? 32 : 44, fontWeight: 800, lineHeight: 1.1, margin: "0 0 20px 0", letterSpacing: "-0.03em" }}>Get in touch</h1>
       <p style={{ fontSize: isMobile ? 15 : 17, lineHeight: 1.7, color: isMobile ? "rgba(255,255,255,0.68)" : "rgba(255,255,255,0.45)", marginBottom: 40 }}>
-        Open to senior product design, UX/UI, and design lead roles in Stockholm. Available August 2026. I'd rather talk than write a cover letter.
+        Open to senior product design, UX/UI, and design lead roles in Stockholm. Available August 2026. I\'d rather talk than write a cover letter.
       </p>
       <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-        {[
-          { label: "Email", value: "karl@lindahl.se" },
-          { label: "LinkedIn", value: "linkedin.com/in/karllindahl" },
-          { label: "Location", value: "Stockholm, Sweden" },
-        ].map((item) => (
-          <div key={item.label} style={{ padding: isMobile ? "20px" : "24px 28px", background: "rgba(255,255,255,0.03)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.06)" }}>
-            <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: isMobile ? "rgba(255,255,255,0.4)" : "rgba(255,255,255,0.25)" }}>{item.label}</span>
-            <p style={{ fontSize: isMobile ? 16 : 18, color: isMobile ? "#fff" : "rgba(255,255,255,0.8)", margin: "6px 0 0 0", fontWeight: 600 }}>{item.value}</p>
+        <a href="mailto:lindahl.karl@gmail.com" style={{ textDecoration: "none" }}>
+          <div style={{ padding: isMobile ? "20px" : "24px 28px", background: "rgba(255,255,255,0.03)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.06)", cursor: "pointer" }}>
+            <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: isMobile ? "rgba(255,255,255,0.4)" : "rgba(255,255,255,0.25)" }}>Email</span>
+            <p style={{ fontSize: isMobile ? 16 : 18, color: isMobile ? "#fff" : "rgba(255,255,255,0.8)", margin: "6px 0 0 0", fontWeight: 600 }}>lindahl.karl@gmail.com</p>
           </div>
-        ))}
+        </a>
+        <a href="https://www.linkedin.com/in/karl-lindahl-a1627266/" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
+          <div style={{ padding: isMobile ? "20px" : "24px 28px", background: "rgba(255,255,255,0.03)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.06)", cursor: "pointer" }}>
+            <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: isMobile ? "rgba(255,255,255,0.4)" : "rgba(255,255,255,0.25)" }}>LinkedIn</span>
+            <p style={{ fontSize: isMobile ? 16 : 18, color: isMobile ? "#fff" : "rgba(255,255,255,0.8)", margin: "6px 0 0 0", fontWeight: 600 }}>linkedin.com/in/karl-lindahl</p>
+          </div>
+        </a>
+        <div style={{ padding: isMobile ? "20px" : "24px 28px", background: "rgba(255,255,255,0.03)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.06)" }}>
+          <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: isMobile ? "rgba(255,255,255,0.4)" : "rgba(255,255,255,0.25)" }}>Location</span>
+          <p style={{ fontSize: isMobile ? 16 : 18, color: isMobile ? "#fff" : "rgba(255,255,255,0.8)", margin: "6px 0 0 0", fontWeight: 600 }}>Stockholm, Sweden</p>
+        </div>
       </div>
     </main>
   );
