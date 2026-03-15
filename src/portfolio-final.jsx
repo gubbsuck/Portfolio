@@ -342,8 +342,8 @@ function Footer({ isMobile }) {
     <footer style={{ padding: isMobile ? "32px 20px" : "48px", display: "flex", flexDirection: isMobile ? "column" : "row", gap: isMobile ? 12 : 0, justifyContent: "space-between", alignItems: isMobile ? "flex-start" : "center", fontSize: 13, color: "rgba(255,255,255,0.2)", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
       <span>Stockholm, Sweden</span>
       <div style={{ display: "flex", gap: 24 }}>
-        <span style={{ cursor: "pointer", color: "rgba(255,255,255,0.4)" }}>LinkedIn</span>
-        <span style={{ cursor: "pointer", color: "rgba(255,255,255,0.4)" }}>lindahl.karl@gmail.com</span>
+        <a href="https://www.linkedin.com/in/karl-lindahl-a1627266/" target="_blank" rel="noreferrer" style={{ color: "rgba(255,255,255,0.4)", textDecoration: "none" }}>LinkedIn</a>
+        <a href="mailto:lindahl.karl@gmail.com" style={{ color: "rgba(255,255,255,0.4)", textDecoration: "none" }}>lindahl.karl@gmail.com</a>
       </div>
     </footer>
   );
