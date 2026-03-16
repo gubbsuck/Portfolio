@@ -210,38 +210,58 @@ const caseData = {
     gradient: "linear-gradient(135deg, #0a2e12 0%, #2d5a1e 100%)",
     subtitle: "Brand Identity & Strategy",
     title: "Brands That Last",
-    intro: "The best briefs are short. The best brands last.\n\nThree industries, three completely different problems — and in each case, the design work started somewhere other than design.",
+    intro: "Three clients. Three industries. Three problems that turned out to be something other than what was on the brief.",
     sections: [
       {
         label: "Grenkultur",
-        headline: "The name came first. Everything else followed.",
-        body: "Two certified arborists with a loyal client base and no brand to show for it. They came to me for a name. Grenkultur — a nod to their background in the arts, and to what tree care actually is: cultivation.\n\nThe logotype is a capital G where the counter forms a leaf growing inward. The domain went straight into the wordmark, because the entire business runs through the website. The brand color — a soft, desaturated green — was the detail that made everything land.\n\nFrom there: full identity system, tone of voice, print, workwear, vehicle graphics, web. When the van pulls up, the brand has already done its job.",
+        headline: "The others look homemade. I went the other way.",
+        body: "My starting assumption: every trade company — arborists included — looks homemade. The ones that don't, and do decent work, win. I built the entire brand around that.\n\nNo benchmarking, no data. Just a conviction that felt true, and a client who trusted it — gave me free rein, which says everything. What does premium look like in this visual context? A Swiss-style typeface — the stability of Helvetica on the NYC subway. A symbol that isn't a logotype: an illustration and a letterform merged, the leaf growing inside the G. And grenkultur.se as the wordmark — structured, typographically neutral, closer to Stockholm Stad than a local handyman. That's the point. It sweeps the floor visually against every competitor with their cluttered, loud, homemade identities.\n\nThe colour did the rest. Monochrome pastel green and white. Simple, calm, competent. No phone numbers, no social icons, no taglines. Just grenkultur.se. You get it. If you want more, you go there. One button on the stereo. Volume only.",
         image: true,
-        imageSrc: "/images/brands-that-last/grenkultur/arborist.jpg",
-        imageCaption: "Brand system: naming, logotype, color, vehicle graphics, web",
+        imageSrc: [
+          { src: "/images/brands-that-last/grenkultur/grabbar.jpg", caption: "The founders — wearing the brand they built the business around" },
+          { src: "/images/brands-that-last/grenkultur/arborist.jpg", caption: "The brand at work — logotype on workwear and van" },
+          { src: "/images/brands-that-last/grenkultur/visitkort.jpg", caption: "Business cards — full identity system in print" },
+        ],
+        outcomes: [
+          "Won a municipal contract with Värmdö kommun in 2023 — five years after the brand launched",
+          "~100 returning private clients, growing by roughly 10 per year",
+          "A brand that positions a two-person firm above competitors twice their size",
+        ],
       },
       {
         label: "Tropic City",
-        headline: "Four words. One of the world's best bars.",
-        body: "Two bartenders from Stockholm moved to Bangkok to open their own cocktail bar and asked me to design the logo. The brief was simple: tropical but classic — somewhere between Miami Vice and The Great Gatsby.\n\nThe palm leaf became the thread to follow. Working through sketches, the form kept pulling in the same direction — an abstract mark where the outline doesn't fully exist, but the eye finds it anyway.\n\nThat was 2017. Today Tropic City is consistently ranked among the world's best cocktail bars — #62 Asia's 50 Best 2024, #66 World's 50 Best 2023, Top 10 Best Bar Team Asia & Pacific four times over — and the mark has never changed.",
+        headline: "The Mark That Found Its Shape.",
+        body: "Sebastian De La Cruz and Philip Stefanescu — two award-winning bartenders from Stockholm — ended up staying in Bangkok and opening their own place. They came to me for a logo. The brief: tropical but classic, somewhere between Miami Vice and The Great Gatsby.\n\nI gave them a bunch of directions. The feedback on the first round was roughly: can you add a palm leaf? So I did. The palm leaf became the thread — an abstract mark where the negative space does the work, the outline doesn't fully exist but the eye finds it anyway. Complex and minimal at the same time. A handwritten font like a signature, a round classic form that works as a digital avatar as much as a neon sign. It knows what it wants.\n\nThat was 2017. The mark has never changed. It works in neon, on ice, on a matchbook, on a menu. Sebastian and Philip are proud of it — and that matters.",
         image: true,
-        imageCaption: "Logo sketches and final mark — applications from neon signage to cocktail ice",
+        imageSrc: [
+          { src: "/images/brands-that-last/tropic-city/sign.jpg", caption: "The final mark — unchanged since 2017" },
+          { src: "/images/brands-that-last/tropic-city/neon-sign.jpg", caption: "Sebastian and Philip — in front of what they built" },
+          { src: "/images/brands-that-last/tropic-city/process.jpg", caption: "Early directions — exploring the brief" },
+        ],
+        outcomes: [
+          "No. 6 Asia's 50 Best Bars 2023",
+          "No. 24 World's 50 Best Bars 2022",
+          "Same mark since 2017 — never updated, never needed to be",
+        ],
       },
       {
         label: "Evidy",
-        headline: "We mapped the business before we touched the design. That was the project.",
-        body: "Haimdall Solutions made smart lighting and interior environments for elder care homes. The products were strong. The brand was nonexistent — no name, no visual language, and a corporate structure with a parent company and two sub-brands that nobody had untangled.\n\nBefore a single concept was sketched, we spent time mapping the business itself — ownership structure, sub-brands, what actually sat under which name. That work happened in a room with the co-owners. It wasn't the brief. It turned out to be the most valuable part of the project.\n\nThe first direction was wrong. Everything good about the final brand came from being forced to understand the business before designing for it. The name Evidy comes from 'evidence' — measurable impact, stated plainly. Five years on, the identity is still running across 15+ facilities.",
+        headline: "The pitch turned into a listening session. That was the turning point.",
+        body: "Haimdall Solutions made smart lighting and care environments for elder care homes. Strong products, no brand — and a corporate structure with a parent company and two sub-brands that nobody had fully mapped.\n\nAfter workshops and briefing sessions, we came in to present our first direction — statements, mission, vision, brand promise. The kind of work you're proud of walking into a room with. They didn't recognise themselves in much of it. Not because it was wrong, but because they weren't aligned internally either. The room shifted. What started as a presentation became a facilitated session — us stepping back, asking questions, listening. We went from pitching to helping them figure out what they actually believed.\n\nIt stung. But it gave us what we needed. We went back and reworked the language and the colour system. The name Evidy comes from evidence — measurable impact, stated plainly.",
         image: true,
-        imageCaption: "Brand book: naming, logotype, color system, typography",
+        imageSrc: [
+          { src: "/images/brands-that-last/evidy/logo.png", caption: "Final identity — deployed across 15+ elder care facilities" },
+          { src: "/images/brands-that-last/evidy/structure.jpg", caption: "Mapping the business before touching design — this was the real project" },
+          { src: "/images/brands-that-last/evidy/app.jpeg", caption: "Caire app — live reporting and statistics for care staff" },
+          { src: "/images/brands-that-last/evidy/caire.png", caption: "Caire app — final version in brand colours" },
+        ],
+        outcomes: [
+          "Identity running across 15+ elder care facilities, five years after delivery",
+          "A pitch that became a strategy session — and was better for it",
+        ],
       },
     ],
-    outcomes: [
-      "Started with naming, structure, and strategy — the design came after",
-      "Three logos still in active use, none replaced",
-      "#62 Asia's 50 Best Bars, #66 World's 50 Best Bars — same Tropic City mark since 2017",
-      "Evidy running across 15+ elder care facilities, five years on",
-      "Grenkultur: three vehicles, web, workwear, social, and a roadside sign — one system across every customer touchpoint",
-    ],
+    outcomes: [],
     tensions: [
       { title: "The brief isn't always the brief.", body: "Evidy started as a naming and visual identity project. It turned out to be a structural strategy session first. The design only worked because we did that part nobody asked for." },
       { title: "The best creative direction I ever received fit in a sentence.", body: "Tropical but classic — somewhere between Miami Vice and The Great Gatsby. The mood imagery confirmed it. Everything else was following that thread all the way to a mark that's still unchanged seven years later." },
@@ -350,25 +370,84 @@ function Footer({ isMobile }) {
   );
 }
 
-function ImagePlaceholder({ accent, caption, height = 280, src }) {
+function ImageCarousel({ accent, caption, src, isMobile }) {
+  const [index, setIndex] = useState(0);
+  const [touchStart, setTouchStart] = useState(null);
+
+  // Support both string/array of strings and array of {src, caption} objects
+  const raw = src ? (Array.isArray(src) ? src : [src]) : null;
+  const images = raw ? raw.map((item) => typeof item === "string" ? { src: item, caption: null } : item) : null;
+  const count = images ? images.length : 0;
+
+  const next = () => setIndex((i) => (i + 1) % count);
+  const prev = () => setIndex((i) => (i - 1 + count) % count);
+
+  const onTouchStart = (e) => setTouchStart(e.touches[0].clientX);
+  const onTouchEnd = (e) => {
+    if (touchStart === null) return;
+    const diff = touchStart - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) diff > 0 ? next() : prev();
+    setTouchStart(null);
+  };
+
+  const containerStyle = isMobile
+    ? { position: "relative", borderRadius: 8, overflow: "hidden", cursor: count > 1 ? "pointer" : "default", width: "100%", aspectRatio: "1 / 1" }
+    : { position: "relative", borderRadius: 8, overflow: "hidden", cursor: count > 1 ? "pointer" : "default", width: 420, height: 420, flexShrink: 0 };
+
+  const currentCaption = images ? (images[index].caption || caption) : caption;
+
   return (
-    <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: 16, overflow: "hidden", border: "1px solid rgba(255,255,255,0.06)" }}>
-      {src ? (
-        <img src={src} alt={caption || ""} style={{ width: "100%", height, objectFit: "cover", display: "block" }} />
-      ) : (
-        <div style={{ width: "100%", height, background: `linear-gradient(135deg, rgba(${accent},0.08) 0%, rgba(${accent},0.02) 100%)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <div style={{ textAlign: "center" }}>
-            <div style={{ width: 48, height: 48, borderRadius: 12, background: `rgba(${accent},0.1)`, border: `1px solid rgba(${accent},0.15)`, display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px auto", fontSize: 14, color: "rgba(255,255,255,0.2)" }}>IMG</div>
-            <span style={{ fontSize: 12, color: "rgba(255,255,255,0.2)" }}>Image placeholder</span>
+    <div style={{ width: isMobile ? "100%" : "auto" }}>
+      <div onClick={() => count > 1 && next()} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} style={containerStyle}>
+        {images ? (
+          <img src={images[index].src} alt={currentCaption || ""} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", display: "block" }} />
+        ) : (
+          <div style={{ width: "100%", height: "100%", background: `linear-gradient(135deg, rgba(${accent},0.08) 0%, rgba(${accent},0.02) 100%)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <div style={{ textAlign: "center" }}>
+              <div style={{ width: 48, height: 48, borderRadius: 12, background: `rgba(${accent},0.1)`, border: `1px solid rgba(${accent},0.15)`, display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px auto", fontSize: 14, color: "rgba(255,255,255,0.2)" }}>IMG</div>
+              <span style={{ fontSize: 12, color: "rgba(255,255,255,0.2)" }}>Image placeholder</span>
+            </div>
           </div>
-        </div>
-      )}
-      {caption && <div style={{ padding: "12px 16px" }}><span style={{ fontSize: 12, color: "rgba(255,255,255,0.3)", fontStyle: "italic" }}>{caption}</span></div>}
+        )}
+        {count > 1 && (
+          <div style={{ position: "absolute", bottom: 10, left: 0, right: 0, display: "flex", justifyContent: "center", gap: 6, pointerEvents: "none" }}>
+            {images.map((_, i) => (
+              <div key={i} style={{ width: i === index ? 8 : 5, height: i === index ? 8 : 5, borderRadius: "50%", background: "#fff", opacity: i === index ? 0.9 : 0.35, transition: "all 0.2s ease" }} />
+            ))}
+          </div>
+        )}
+      </div>
+      {currentCaption && <p style={{ fontSize: 12, color: "rgba(255,255,255,0.3)", fontStyle: "italic", margin: "10px 0 0 0" }}>{currentCaption}</p>}
     </div>
   );
 }
 
-function SectionBlock({ section, accent, accentRgb, isMobile }) {
+function SectionBlock({ section, accent, accentRgb, isMobile, index }) {
+  const isEven = index % 2 === 0;
+  const showImage = section.image;
+
+  const textBlock = (
+    <div style={{ flex: 1, minWidth: 0 }}>
+      {section.body.split("\n\n").map((para, i) => (
+        <p key={i} style={{ fontSize: isMobile ? 14 : 15, lineHeight: 1.75, color: isMobile ? "rgba(255,255,255,0.72)" : "rgba(255,255,255,0.5)", margin: i === 0 ? 0 : "12px 0 0 0" }}>{para}</p>
+      ))}
+      {section.detail && (
+        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: 16, marginTop: 24 }}>
+          {section.detail.map((d) => (
+            <div key={d.label} style={{ gridColumn: d.wide && !isMobile ? "span 2" : "span 1" }}>
+              <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: isMobile ? "rgba(255,255,255,0.45)" : "rgba(255,255,255,0.25)" }}>{d.label}</span>
+              <p style={{ fontSize: 14, color: isMobile ? "rgba(255,255,255,0.85)" : "rgba(255,255,255,0.7)", margin: "4px 0 0 0", fontWeight: 500 }}>{d.value}</p>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+
+  const imageBlock = showImage ? (
+    <ImageCarousel accent={accentRgb} caption={section.imageCaption} src={section.imageSrc} isMobile={isMobile} />
+  ) : null;
+
   return (
     <div style={{ padding: isMobile ? "48px 0" : "80px 0", borderBottom: "1px solid rgba(255,255,255,0.04)" }}>
       <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: accent, opacity: isMobile ? 0.85 : 0.6 }}>{section.label}</span>
@@ -383,24 +462,27 @@ function SectionBlock({ section, accent, accentRgb, isMobile }) {
           ))}
         </div>
       )}
-      <div style={{ display: "grid", gridTemplateColumns: section.image && !isMobile ? "1fr 1fr" : "1fr", gap: isMobile ? 24 : 48, alignItems: "start" }}>
-        <div>
-          {section.body.split("\n\n").map((para, i) => (
-            <p key={i} style={{ fontSize: isMobile ? 14 : 15, lineHeight: 1.75, color: isMobile ? "rgba(255,255,255,0.72)" : "rgba(255,255,255,0.5)", margin: i === 0 ? 0 : "12px 0 0 0" }}>{para}</p>
-          ))}
-          {section.detail && (
-            <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: 16, marginTop: 24 }}>
-              {section.detail.map((d) => (
-                <div key={d.label} style={{ gridColumn: d.wide && !isMobile ? "span 2" : "span 1" }}>
-                  <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: isMobile ? "rgba(255,255,255,0.45)" : "rgba(255,255,255,0.25)" }}>{d.label}</span>
-                  <p style={{ fontSize: 14, color: isMobile ? "rgba(255,255,255,0.85)" : "rgba(255,255,255,0.7)", margin: "4px 0 0 0", fontWeight: 500 }}>{d.value}</p>
-                </div>
-              ))}
-            </div>
-          )}
+      {isMobile ? (
+        <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+          {textBlock}
+          {imageBlock}
         </div>
-        {section.image && <ImagePlaceholder accent={accentRgb} caption={section.imageCaption} height={isMobile ? 200 : 280} src={section.imageSrc} />}
-      </div>
+      ) : (
+        <div style={{ display: "flex", flexDirection: isEven ? "row" : "row-reverse", gap: 64, alignItems: "flex-start" }}>
+          {textBlock}
+          {imageBlock}
+        </div>
+      )}
+      {section.outcomes && section.outcomes.length > 0 && (
+        <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 10 }}>
+          {section.outcomes.map((o, i) => (
+            <div key={i} style={{ display: "flex", alignItems: "start", gap: 14 }}>
+              <div style={{ width: 6, height: 6, borderRadius: "50%", background: accent, opacity: 0.5, marginTop: 8, flexShrink: 0 }} />
+              <p style={{ fontSize: isMobile ? 13 : 14, lineHeight: 1.6, color: isMobile ? "rgba(255,255,255,0.65)" : "rgba(255,255,255,0.45)", margin: 0 }}>{o}</p>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -455,7 +537,7 @@ function CasePage({ caseId, onNavigate, isMobile }) {
   const px = isMobile ? 20 : 48;
   return (
     <>
-      <header style={{ padding: `${isMobile ? 48 : 80}px ${px}px 0`, maxWidth: 900 }}>
+      <header style={{ padding: `${isMobile ? 48 : 80}px ${px}px 0`, maxWidth: 1100, margin: "0 auto" }}>
         <div style={{ marginBottom: 16 }}>
           <span onClick={() => onNavigate("home")} style={{ fontSize: 12, color: "rgba(255,255,255,0.3)", cursor: "pointer" }}>{"<-"} Back to work</span>
         </div>
@@ -466,8 +548,9 @@ function CasePage({ caseId, onNavigate, isMobile }) {
         ))}
       </header>
 
-      <main style={{ padding: `0 ${px}px`, maxWidth: 900 }}>
-        {c.sections.map((s, i) => <SectionBlock key={i} section={s} accent={c.accent} accentRgb={c.accentRgb} isMobile={isMobile} />)}
+      <main style={{ padding: `0 ${px}px`, maxWidth: 1100, margin: "0 auto" }}>
+        {c.sections.map((s, i) => <SectionBlock key={i} section={s} accent={c.accent} accentRgb={c.accentRgb} isMobile={isMobile} index={i} />)}
+        {c.outcomes && c.outcomes.length > 0 && (
         <div style={{ padding: isMobile ? "48px 0" : "80px 0", borderBottom: "1px solid rgba(255,255,255,0.04)" }}>
           <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: c.accent, opacity: 0.6 }}>Outcome</span>
           <div style={{ display: "flex", flexDirection: "column", gap: 14, marginTop: 24 }}>
@@ -479,6 +562,7 @@ function CasePage({ caseId, onNavigate, isMobile }) {
             ))}
           </div>
         </div>
+        )}
         <div style={{ padding: isMobile ? "48px 0 64px" : "80px 0 100px" }}>
           <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(255,255,255,0.25)", marginBottom: 24, display: "block" }}>Navigating Tensions</span>
           <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -518,7 +602,7 @@ function AboutPage({ isMobile }) {
       </header>
       <main style={{ padding: `32px ${px}px 80px`, maxWidth: 700 }}>
         <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: 32, marginBottom: 48 }}>
-          <ImagePlaceholder accent="255,255,255" caption="Portrait" height={isMobile ? 240 : 320} />
+          <ImageCarousel accent="255,255,255" caption="Portrait" height={isMobile ? 240 : 320} isMobile={isMobile} />
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <p style={{ fontSize: isMobile ? 18 : 22, lineHeight: 1.5, fontWeight: 600, color: "#fff", margin: 0 }}>{aboutData.intro}</p>
           </div>
