@@ -96,39 +96,39 @@ const caseData = {
     gradient: "linear-gradient(135deg, #0a2e1f 0%, #1a5c40 100%)",
     subtitle: "Pre-Seed Healthtech - Product Design",
     title: "Load-Bearing Design",
-    intro: "Three people, no funding, and a product that existed as an API and rough sketches. No design framework, no established decisions — just a founder with strong opinions and a designer willing to stress-test every single one of them.\n\nThe friction was the process. Most of what held up, held up better for having been challenged.",
+    intro: "Three people, no funding, and a product that existed as an API and rough sketches. No design language, no established decisions — just a founder with strong opinions and a designer willing to stress-test every single one of them.\n\nThe friction was the process. Most of what held up, held up better for having been challenged.",
     sections: [
       {
         label: "Context",
-        headline: "A product without a design framework. A founder with strong opinions.",
-        body: "Meter aggregates health data from multiple wearables into a single view. The backend existed. The community validation existed. What didn't exist was any coherent design language, visual system, or agreed-upon product logic. I came in to build that — while the product was already in motion.",
+        headline: "A serious product. No design foundation yet.",
+        body: "Meter aggregates health data from multiple wearables into a single view. The founder had spent months embedded in Reddit communities, building firsthand knowledge of what users wanted and why. He'd validated demand the hard way, and had investors ready to commit pending 1–5% conversion proof. What the product needed was a user-ready beta to get there.\n\nThe backend existed. The community existed. What didn't was any coherent visual language, interaction logic, or agreed-upon product structure. Before I could design anything I needed to understand the product from the inside — the founder lent me a GPS watch so I could actually collect data and feel what the experience was supposed to solve.\n\nThe usual UX process — structured research, documented insights — wasn't the foundation here. The founder had deep knowledge of his users, built through direct immersion rather than formal methods. Learning to work from that, and to choose my challenges carefully rather than questioning everything equally, took time to calibrate.",
         detail: [
-          { label: "Role", value: "Head of Experience" },
+          { label: "Role", value: "Founding Product Designer" },
           { label: "Team", value: "Founder, developer, me" },
-          { label: "Stage", value: "Pre-seed, active development" },
-          { label: "Scope", value: "Dashboard, onboarding, settings, activity tracking, nutrition self-assessment", wide: true },
+          { label: "Stage", value: "Pre-seed, investor-ready beta" },
+          { label: "Scope", value: "Home, Settings, Onboarding, Activity, Body Status, Nutrition Form, Strength Assessment, Splash Screens, No-data states, App Store assets", wide: true },
         ],
       },
       {
         label: "Framework",
         headline: "Spotify as a strategic decision, not a mood board.",
-        body: "The first structural call was what to design against. Meter's competitors either buried users in data or talked down to them — overly technical on one end, paternalistic on the other. Spotify sits in neither camp: it handles deep complexity with a calm, democratic visual language that scales across dozens of surfaces without losing coherence.\n\nThat was the argument. Not 'Spotify looks good' but 'Spotify solves the same tension Meter faces, and it's already proven.' Daniel agreed. It gave us a shared reference point for every visual decision that followed.",
+        body: "The first structural call was what to design against. Meter's competitors either buried users in data or talked down to them — overly technical on one end, paternalistic on the other. Spotify handles deep complexity with a calm, democratic visual language that scales across dozens of surfaces without losing coherence. That tension — sophisticated without being intimidating — was exactly what Meter needed to resolve.\n\nIt gave us a shared reference point for every visual decision that followed.",
         image: true,
         imageCaption: "Design framework: visual language built for scale",
       },
       {
         label: "Pressure",
-        headline: "Most challenges didn't land. That was still the job.",
-        body: "The working method was direct. I interrogated every product decision — from information architecture to feature logic — until it either held up or we changed it. Not every challenge landed. Maybe one in ten conversations ended in a pivot. Daniel sometimes got frustrated. He always came back.\n\nThe point wasn't to win arguments. It was to make sure nothing survived by default. Benefits is the clearest example: it started as a vague feature idea. Under enough scrutiny it became a structured pattern grounded in the actual data model — something that genuinely served the user rather than filling a slot on the roadmap.",
+        headline: "The job was to make sure nothing survived by default.",
+        body: "The working method was direct. I interrogated every product decision — from information architecture to feature logic — until it either held up or we changed it. Not every challenge landed. Maybe one in ten conversations ended in a pivot. Frustration came and went on both sides. The process continued.\n\nThe point wasn't to win arguments. It was to make sure nothing survived by default. Benefits is the clearest example: the idea surfaced in one of those push-back conversations — the founder arrived at it himself, under pressure, working through the logic out loud. That's how it should work.",
         image: true,
-        imageCaption: "Benefits feature: from vague idea to structured product pattern",
+        imageCaption: "Benefits feature: born from a push-back conversation",
       },
       {
         label: "Design",
-        headline: "Not a dashboard. A product.",
-        body: "Five surfaces in parallel: dashboard, onboarding, settings architecture three levels deep, a nutrition self-assessment tool, and the beginning of a Strava-style activity view pairing GPS data with smartwatch metrics. Concepts went straight to high-fidelity — there was no time for anything else, and low-fidelity would have obscured the decisions that actually mattered.",
+        headline: "Lo-fi in structure. Hi-fi in detail. No shortcuts.",
+        body: "The process was a hybrid: wireframes built in greyscale but at enough fidelity that moving to hi-fi meant applying colour, light and shadow — not rethinking layout. At a startup with no runway for false starts, that discipline kept things moving.\n\nThe dashboard was the core surface. The Activity view was particularly stubborn — there was a lot the product wanted to communicate in very little space, and at one point the founder jumped into Figma to sketch alongside me. Looking at what the current version of Meter simplified, it's clear that tension was real. Sometimes a product has to find that out for itself.",
         image: true,
-        imageCaption: "The full product: dashboard, onboarding, activity, settings, self-assessment",
+        imageCaption: "Lo-fi wireframes to hi-fi: dashboard and activity view",
       },
       {
         label: "Initiative",
@@ -139,14 +139,14 @@ const caseData = {
       },
     ],
     outcomes: [
-      "Complete design system across five product surfaces",
+      "Visual language and interaction framework across eleven product surfaces",
       "300+ Discord members, core group actively shaping the product",
-      "Benefits feature: from pressure-tested idea to core product pattern",
+      "Benefits feature: surfaced through push-back, became a core product pattern",
     ],
     tensions: [
       { title: "I proposed a rebrand. The founder said no.", body: "Late in the project I pushed for significant identity changes. He had reasons to keep things as they were. I executed his vision at the highest level I could. Sometimes that's the right call." },
+      { title: "My design didn't make it into v2. There is no v2 without v1.", body: "I checked in with the founder a year later. Nothing had survived — new designer, new vision, rebuilt architecture. That's startup reality. But the work served its purpose: it gave the product something concrete to react to, something to build from and eventually move beyond. Early-stage design work isn't meant to last forever. It's meant to get the product to the next phase." },
       { title: "Vision as a decision filter.", body: "Brand thinking and product thinking aren't in conflict — they share the same foundation. A clear long-term vision makes individual product decisions faster and more consistent. That's what I brought to the table, and it's what made the friction productive rather than just difficult." },
-      { title: "The job description was meaningless.", body: "Three people building a company. You do whatever the product needs that day." },
     ],
     next: { title: "Built Alone. Not Alone.", subtitle: "AI-Built Civic Tech", id: "chattitude", accent: "#a78bfa" },
   },
@@ -193,8 +193,8 @@ const caseData = {
       },
     ],
     outcomes: [
-      "Explored AI end-to-end for the first time — from vision to working MVP in weeks",
-      "Used AI as a thinking partner, not just a tool — for product decisions as much as implementation",
+      "Concept to working MVP in weeks — evenings, solo, during parental leave",
+      "Used AI as a thinking partner for product decisions as much as implementation",
       "Learned the hardest lesson: the difference between a problem you have and a problem others will pay to solve",
     ],
     tensions: [
@@ -217,7 +217,8 @@ const caseData = {
         headline: "The name came first. Everything else followed.",
         body: "Two certified arborists with a loyal client base and no brand to show for it. They came to me for a name. Grenkultur — a nod to their background in the arts, and to what tree care actually is: cultivation.\n\nThe logotype is a capital G where the counter forms a leaf growing inward. The domain went straight into the wordmark, because the entire business runs through the website. The brand color — a soft, desaturated green — was the detail that made everything land.\n\nFrom there: full identity system, tone of voice, print, workwear, vehicle graphics, web. When the van pulls up, the brand has already done its job.",
         image: true,
-        imageCaption: "[Brand system: naming, logotype, color, vehicle graphics, web — images to come]",
+        imageSrc: "/images/brands-that-last/grenkultur/arborist.jpg",
+        imageCaption: "Brand system: naming, logotype, color, vehicle graphics, web",
       },
       {
         label: "Tropic City",
@@ -228,7 +229,7 @@ const caseData = {
       },
       {
         label: "Evidy",
-        headline: "A healthcare brand built to scale.",
+        headline: "We mapped the business before we touched the design. That was the project.",
         body: "Haimdall Solutions made smart lighting and interior environments for elder care homes. The products were strong. The brand was nonexistent — no name, no visual language, and a corporate structure with a parent company and two sub-brands that nobody had untangled.\n\nBefore a single concept was sketched, we spent time mapping the business itself — ownership structure, sub-brands, what actually sat under which name. That work happened in a room with the co-owners. It wasn't the brief. It turned out to be the most valuable part of the project.\n\nThe first direction was wrong. Everything good about the final brand came from being forced to understand the business before designing for it. The name Evidy comes from 'evidence' — measurable impact, stated plainly. Five years on, the identity is still running across 15+ facilities.",
         image: true,
         imageCaption: "Brand book: naming, logotype, color system, typography",
@@ -237,13 +238,13 @@ const caseData = {
     outcomes: [
       "Started with naming, structure, and strategy — the design came after",
       "Three logos still in active use, none replaced",
-      "#62 Asia's 50 Best Bars, #66 World's 50 Best Bars — same mark since 2017",
+      "#62 Asia's 50 Best Bars, #66 World's 50 Best Bars — same Tropic City mark since 2017",
       "Evidy running across 15+ elder care facilities, five years on",
-      "Grenkultur: [siffror kommer]",
+      "Grenkultur: three vehicles, web, workwear, social, and a roadside sign — one system across every customer touchpoint",
     ],
     tensions: [
       { title: "The brief isn't always the brief.", body: "Evidy started as a naming and visual identity project. It turned out to be a structural strategy session first. The design only worked because we did that part nobody asked for." },
-      { title: "Four words was enough.", body: "The best creative direction I ever received fit in a sentence. The mood imagery confirmed it. The rest was following the thread." },
+      { title: "The best creative direction I ever received fit in a sentence.", body: "Tropical but classic — somewhere between Miami Vice and The Great Gatsby. The mood imagery confirmed it. Everything else was following that thread all the way to a mark that's still unchanged seven years later." },
       { title: "A brand that needs explaining isn't working.", body: "Grenkultur, Tropic City, Evidy — none of them require a presentation. They work on a van, on a neon sign, in a procurement meeting." },
     ],
     next: { title: "Klingit & PwC", subtitle: "Enterprise Design Leadership", id: "enterprise", accent: "#818cf8" },
@@ -255,49 +256,62 @@ const caseData = {
     gradient: "linear-gradient(135deg, #111127 0%, #2a2a4a 100%)",
     subtitle: "Klingit & PwC Experience Center",
     title: "Room to Lead",
-    intro: "The best work I've done has one thing in common: I was trusted to own it.\n\nKlingit threw me in at the deep end with eight concurrent clients and no safety net. PwC put that in a larger context. The UK bank project — run solo from Stockholm, largely because my managers there had other priorities — turned out to be the clearest proof of what happens when competence gets space.",
+    intro: "The pattern has been consistent across every environment I've worked in: when I see something that doesn't make sense, I say so.\n\nKlingit was where that instinct got tested at pace. PwC was where it held under more formal conditions. Both taught me something different about what it means to lead through design rather than just execute it.",
     sections: [
       {
         label: "Klingit",
-        headline: "Eight clients. One designer owning all of it.",
-        body: "Clas Ohlson needed their Clas Fixare platform designed — IA, UX, brand implementation, booking onboarding. I led that and directed other designers on the project. Ally Doctor 2 Home needed a complete booking flow wireframed for their app. Brandexperten needed a full website rebuild with a new identity and thousands of products and services organized for SEO — I ran the client relationship and coordinated SEO specialists, designers, and stakeholders. Odevo needed the same treatment. All of this ran concurrently — alongside four marketing campaigns running in parallel.",
+        headline: "Creative lead. Full accountability. No safety net.",
+        body: "Klingit is a Swedish creative agency running client work through a distributed model — designers based abroad, with a local creative lead responsible for quality, client relationships, and everything in between. My title was Creative Project Manager. In practice it meant owning the delivery end to end: briefing designers, ensuring the output met the standard Swedish clients expect, and being the one on the call when something needed to be fixed or defended.\n\nI was brought in to handle some of their largest accounts at the time — partly because I could lead the work, and partly because I could step in and do the design myself if needed. At peak I was running four client accounts alongside four marketing campaigns simultaneously, directing designers across all of them.",
         image: true,
         imageCaption: "Brandexperten.se and Odevo.com — both still live",
       },
       {
-        label: "What it built",
-        headline: "Client management, commercial instinct, and the ability to run a room.",
-        body: "Before Klingit I made things look good. After Klingit I understood what clients actually need versus what they ask for, how to manage scope when everything is urgent, and how to lead a team while doing the work yourself. That shift — from executing to owning — is what made PwC possible.",
+        label: "The Clas Fixare Moment",
+        headline: "I saw something that didn't add up. Said so. Got the chance to prove it.",
+        body: "Clas Ohlson's Clas Fixare platform came with an existing information architecture put together by my manager. It didn't make sense to me — I couldn't follow the logic, and suspected users wouldn't either.\n\nI raised it directly. My manager gave me the space to show what I meant. I came back with an alternative approach, made the case for it, and got the green light. What I took from it: questioning something early, even when it's uncomfortable, is usually worth it.",
+        image: true,
+        imageCaption: "Clas Fixare — IA, UX, brand implementation, booking onboarding",
       },
       {
         label: "PwC Experience Center",
-        headline: "Same skills. Bigger clients. More at stake.",
-        body: "The work included a fintech app for a major UK bank — redesigning IA and crafting the UI for a business cost management tool, in close collaboration with the PM in London. Foresight and concept development for a large Scandinavian retailer exploring food experiences in their stores. Strategic playbooks for a European food industry organization helping them build internal capability for new product lines. Different pace, more layers of approval, but the core was the same: understand the real problem, present clearly, deliver.",
+        headline: "Bigger clients. Same instinct.",
+        body: "PwC Experience Center is the innovation and experience design arm of PwC — working with large organisations on strategy, concept development, and digital product design. The UK bank project was a fintech tool for business cost management. The IA we received from the client team was structured around their internal logic rather than user needs — clear once you mapped it out, but not something you'd want to build on.\n\nMy lead pushed me to challenge it properly rather than work around it. We ran a structured UX session, broke the product down from scratch, and I presented a new approach to our colleagues in the London office. They approved it.",
         image: true,
-        imageCaption: "Enterprise consulting: fintech, retail, FMCG",
+        imageCaption: "Enterprise consulting: fintech and beyond",
+      },
+      {
+        label: "Reading the Room",
+        headline: "Knowing when to push — and when to stop.",
+        body: "At PwC I took on an internal initiative to strengthen our team's own brand, storytelling and visual identity. I organised meetings with partners, led the sessions, and kept pushing.\n\nAt some point it became clear the obstacles were structural and beyond what I could move. I recognised it and stepped back. My closest manager — who had been in those rooms with me — told me privately the work and the intention were right. Sometimes that's what you get, and knowing when to stop is part of the job.",
+      },
+      {
+        label: "Since Then",
+        headline: "A longer pause than planned. Used well.",
+        body: "The Experience Center was wound down during my parental leave — market conditions, new leadership, internal restructuring. Not something I could have influenced.\n\nThe time went somewhere real. At Meter I joined as founding product designer at a pre-seed healthtech startup — building a design system and product across five surfaces from nothing, while stress-testing every product decision along the way. Chattitude came out of evenings after the kids were asleep — a solo product build, concept to working prototype, that became a hands-on exploration of what AI can actually do as a creative and technical collaborator. Both cases are in this portfolio.\n\nTwins and a third child, all in their first years. Returning August 2026.",
       },
     ],
     outcomes: [
-      "Klingit: eight concurrent client projects across web, product, and brand",
-      "PwC: enterprise delivery for clients in fintech, retail, and FMCG",
-      "The combination: commercial instinct from scale-up pace, validated at enterprise scale",
+      "Trusted with Klingit's largest accounts — led delivery across four client projects and four campaigns simultaneously",
+      "Directed distributed design teams while maintaining direct client accountability throughout",
+      "UK bank project: challenged inherited IA, rebuilt the approach, got sign-off from enterprise client",
+      "Parental leave used actively — Meter, Chattitude, structured learning",
     ],
     tensions: [
-      { title: "Involuntary trust.", body: "At Klingit it came with the territory — a scale-up where everyone was expected to own their piece regardless of title or experience. Sink or swim, and most of us swam. At PwC it came differently: certain projects carried prestige, others didn't. The UK bank project fell in the latter category, which meant my Stockholm managers largely left me to it. Either way, the result was the same — given the room, I delivered." },
-      { title: "NDA limits what's shown here.", body: "The specific deliverables can't be shared. The types of problems, the environments, and what those years built — that's the relevant part." },
+      { title: "Involuntary trust — twice.", body: "At Klingit it came with the scale-up territory. At PwC certain projects carried more internal prestige than others — the UK bank project happened to be one where I was largely left to run it. Same result either way." },
+      { title: "A department closure during parental leave wasn't in the plan.", body: "What I did with the time that followed is in this portfolio." },
     ],
     next: null,
   },
 };
 
 const aboutData = {
-  intro: "14 years across illustration, branding, UX, and product design. I kept moving because the problems got more interesting, not because I got bored.",
+  intro: "14 years across illustration, branding, UX, and product design. The through-line isn't a job title — it's a way of working.",
   body: [
-    "I drew before I designed. Illustration taught me to see. Branding taught me to think about what a thing means before deciding what it looks like. UX taught me that meaning is worthless if nobody can use it. Product design taught me that all of the above happens under constraints that nobody warned you about.",
-    "At Klingit I learned to own everything — product direction, client relationships, commercial thinking — with nowhere to hide. PwC validated those skills at enterprise scale and put me in front of clients where the stakes were real. At Meter I found out what happens when there's no process, no money, and three people trying to build something that looks like a real company. Evidy proved I could take a client from rejected first draft to a brand that's still running five years later. Chattitude proved that an idea worth pitching in 2019 is worth building in 2025 — and that one person with the right tools can close that gap alone.",
-    "Hyper Island Design Lead alumni. Piano and guitar since childhood. Three kids, including twins. Based in Stockholm, back from parental leave August 2026.",
+    "I drew before I designed. Illustration taught me to look carefully at things. Branding taught me that what something means matters more than what it looks like. UX taught me that meaning is worthless if nobody can use it. Product design taught me that all of the above happens under constraints nobody warned you about — and that's where it gets interesting.",
+    "The cases in this portfolio cover a pre-seed healthtech startup, a solo AI product build, three brand identities still in active use, and a decade of client and enterprise work. Across all of it, the moments I'm most proud of have one thing in common: I was given a real problem and trusted to own it.",
+    "Outside work: piano and guitar since I was a kid — music has always been the thing I do when I'm not performing competence at anything. Three children, including twins, all in their first years. Hyper Island Design Lead alumni. Based in Stockholm, returning from parental leave August 2026.",
   ],
-  skills: ["Product Design", "UX / UI", "Brand Strategy", "Visual Design", "Design Systems", "AI + Design", "Prototyping", "Client Management", "Facilitation"],
+  skills: ["Product Design", "UX / UI", "Brand Strategy", "Visual Design", "Interaction Design", "AI + Design", "Prototyping", "Client Management", "Facilitation"],
 };
 
 const homeCards = [
@@ -329,22 +343,26 @@ function Footer({ isMobile }) {
     <footer style={{ padding: isMobile ? "32px 20px" : "48px", display: "flex", flexDirection: isMobile ? "column" : "row", gap: isMobile ? 12 : 0, justifyContent: "space-between", alignItems: isMobile ? "flex-start" : "center", fontSize: 13, color: "rgba(255,255,255,0.2)", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
       <span>Stockholm, Sweden</span>
       <div style={{ display: "flex", gap: 24 }}>
-        <span style={{ cursor: "pointer", color: "rgba(255,255,255,0.4)" }}>LinkedIn</span>
-        <span style={{ cursor: "pointer", color: "rgba(255,255,255,0.4)" }}>karl@lindahl.se</span>
+        <a href="https://www.linkedin.com/in/karl-lindahl-a1627266/" target="_blank" rel="noreferrer" style={{ color: "rgba(255,255,255,0.4)", textDecoration: "none" }}>LinkedIn</a>
+        <a href="mailto:lindahl.karl@gmail.com" style={{ color: "rgba(255,255,255,0.4)", textDecoration: "none" }}>lindahl.karl@gmail.com</a>
       </div>
     </footer>
   );
 }
 
-function ImagePlaceholder({ accent, caption, height = 280 }) {
+function ImagePlaceholder({ accent, caption, height = 280, src }) {
   return (
     <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: 16, overflow: "hidden", border: "1px solid rgba(255,255,255,0.06)" }}>
-      <div style={{ width: "100%", height, background: `linear-gradient(135deg, rgba(${accent},0.08) 0%, rgba(${accent},0.02) 100%)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <div style={{ textAlign: "center" }}>
-          <div style={{ width: 48, height: 48, borderRadius: 12, background: `rgba(${accent},0.1)`, border: `1px solid rgba(${accent},0.15)`, display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px auto", fontSize: 14, color: "rgba(255,255,255,0.2)" }}>IMG</div>
-          <span style={{ fontSize: 12, color: "rgba(255,255,255,0.2)" }}>Image placeholder</span>
+      {src ? (
+        <img src={src} alt={caption || ""} style={{ width: "100%", height, objectFit: "cover", display: "block" }} />
+      ) : (
+        <div style={{ width: "100%", height, background: `linear-gradient(135deg, rgba(${accent},0.08) 0%, rgba(${accent},0.02) 100%)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ textAlign: "center" }}>
+            <div style={{ width: 48, height: 48, borderRadius: 12, background: `rgba(${accent},0.1)`, border: `1px solid rgba(${accent},0.15)`, display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px auto", fontSize: 14, color: "rgba(255,255,255,0.2)" }}>IMG</div>
+            <span style={{ fontSize: 12, color: "rgba(255,255,255,0.2)" }}>Image placeholder</span>
+          </div>
         </div>
-      </div>
+      )}
       {caption && <div style={{ padding: "12px 16px" }}><span style={{ fontSize: 12, color: "rgba(255,255,255,0.3)", fontStyle: "italic" }}>{caption}</span></div>}
     </div>
   );
@@ -355,6 +373,16 @@ function SectionBlock({ section, accent, accentRgb, isMobile }) {
     <div style={{ padding: isMobile ? "48px 0" : "80px 0", borderBottom: "1px solid rgba(255,255,255,0.04)" }}>
       <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: accent, opacity: isMobile ? 0.85 : 0.6 }}>{section.label}</span>
       <h2 style={{ fontSize: isMobile ? 22 : 28, fontWeight: 700, lineHeight: 1.25, margin: "12px 0 20px 0", color: "#fff", letterSpacing: "-0.02em" }}>{section.headline}</h2>
+      {section.bullets && (
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 24 }}>
+          {section.bullets.map((b, i) => (
+            <div key={i} style={{ display: "flex", alignItems: "start", gap: 12 }}>
+              <div style={{ width: 6, height: 6, borderRadius: "50%", background: accent, opacity: 0.6, marginTop: 7, flexShrink: 0 }} />
+              <p style={{ fontSize: isMobile ? 14 : 15, lineHeight: 1.6, color: "#fff", margin: 0, fontWeight: 500 }}>{b}</p>
+            </div>
+          ))}
+        </div>
+      )}
       <div style={{ display: "grid", gridTemplateColumns: section.image && !isMobile ? "1fr 1fr" : "1fr", gap: isMobile ? 24 : 48, alignItems: "start" }}>
         <div>
           {section.body.split("\n\n").map((para, i) => (
@@ -371,7 +399,7 @@ function SectionBlock({ section, accent, accentRgb, isMobile }) {
             </div>
           )}
         </div>
-        {section.image && <ImagePlaceholder accent={accentRgb} caption={section.imageCaption} height={isMobile ? 200 : 280} />}
+        {section.image && <ImagePlaceholder accent={accentRgb} caption={section.imageCaption} height={isMobile ? 200 : 280} src={section.imageSrc} />}
       </div>
     </div>
   );
@@ -437,14 +465,7 @@ function CasePage({ caseId, onNavigate, isMobile }) {
           <p key={i} style={{ fontSize: isMobile ? 16 : 19, lineHeight: 1.6, color: isMobile ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.45)", marginTop: i === 0 ? 16 : 12, maxWidth: 600 }}>{para}</p>
         ))}
       </header>
-      <div style={{ padding: `32px ${px}px 0`, maxWidth: 900 }}>
-        <div style={{ width: "100%", height: isMobile ? 240 : 400, background: c.gradient, borderRadius: 20, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid rgba(${c.accentRgb},0.1)` }}>
-          <div style={{ textAlign: "center" }}>
-            <div style={{ width: 56, height: 56, borderRadius: 14, background: `rgba(${c.accentRgb},0.1)`, border: `1px solid rgba(${c.accentRgb},0.15)`, display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px auto", fontSize: 18, color: "rgba(255,255,255,0.2)" }}>IMG</div>
-            <span style={{ fontSize: 12, color: "rgba(255,255,255,0.25)" }}>Hero image</span>
-          </div>
-        </div>
-      </div>
+
       <main style={{ padding: `0 ${px}px`, maxWidth: 900 }}>
         {c.sections.map((s, i) => <SectionBlock key={i} section={s} accent={c.accent} accentRgb={c.accentRgb} isMobile={isMobile} />)}
         <div style={{ padding: isMobile ? "48px 0" : "80px 0", borderBottom: "1px solid rgba(255,255,255,0.04)" }}>
@@ -512,7 +533,7 @@ function AboutPage({ isMobile }) {
         </div>
         <div style={{ marginTop: 48, padding: isMobile ? "24px" : "32px", background: "rgba(255,255,255,0.02)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.06)" }}>
           <p style={{ fontSize: 14, color: isMobile ? "rgba(255,255,255,0.68)" : "rgba(255,255,255,0.5)", margin: 0, lineHeight: 1.7 }}>
-            Currently on parental leave, returning August 2026. Looking for senior product design, UX/UI, or design lead roles in Stockholm. karl@lindahl.se
+            Currently on parental leave, returning August 2026. Looking for senior product design, UX/UI, or design lead roles in Stockholm. lindahl.karl@gmail.com
           </p>
         </div>
       </main>
@@ -524,25 +545,23 @@ function ContactPage({ isMobile }) {
   const px = isMobile ? 20 : 48;
   return (
     <main style={{ padding: `${isMobile ? 64 : 120}px ${px}px 80px`, maxWidth: 600 }}>
-      <h1 style={{ fontSize: isMobile ? 32 : 44, fontWeight: 800, lineHeight: 1.1, margin: "0 0 20px 0", letterSpacing: "-0.03em" }}>Get in touch</h1>
-      <p style={{ fontSize: isMobile ? 15 : 17, lineHeight: 1.7, color: isMobile ? "rgba(255,255,255,0.68)" : "rgba(255,255,255,0.45)", marginBottom: 40 }}>
-        Open to senior product design, UX/UI, and design lead roles in Stockholm. Available August 2026. I'd rather talk than write a cover letter.
+      <h1 style={{ fontSize: isMobile ? 32 : 44, fontWeight: 800, lineHeight: 1.1, margin: "0 0 16px 0", letterSpacing: "-0.03em" }}>Get in touch</h1>
+      <p style={{ fontSize: isMobile ? 15 : 17, lineHeight: 1.7, color: "rgba(255,255,255,0.45)", marginBottom: 48 }}>
+        Open to senior product design, UX/UI, and design lead roles in Stockholm. Available August 2026.
       </p>
       <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-        {[
-          { label: "Email", value: "karl@lindahl.se" },
-          { label: "LinkedIn", value: "linkedin.com/in/karllindahl" },
-          { label: "Location", value: "Stockholm, Sweden" },
-        ].map((item) => (
-          <div key={item.label} style={{ padding: isMobile ? "20px" : "24px 28px", background: "rgba(255,255,255,0.03)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.06)" }}>
-            <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: isMobile ? "rgba(255,255,255,0.4)" : "rgba(255,255,255,0.25)" }}>{item.label}</span>
-            <p style={{ fontSize: isMobile ? 16 : 18, color: isMobile ? "#fff" : "rgba(255,255,255,0.8)", margin: "6px 0 0 0", fontWeight: 600 }}>{item.value}</p>
-          </div>
-        ))}
+        <a href="mailto:lindahl.karl@gmail.com" style={{ display: "block", padding: "20px 28px", background: "rgba(255,255,255,0.06)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.1)", textDecoration: "none", color: "#fff", fontSize: 18, fontWeight: 600 }}>
+          Email — lindahl.karl@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/karl-lindahl-a1627266/" target="_blank" rel="noreferrer" style={{ display: "block", padding: "20px 28px", background: "rgba(255,255,255,0.06)", borderRadius: 16, border: "1px solid rgba(255,255,255,0.1)", textDecoration: "none", color: "#fff", fontSize: 18, fontWeight: 600 }}>
+          LinkedIn — karl-lindahl
+        </a>
       </div>
+      <p style={{ marginTop: 48, fontSize: 13, color: "rgba(255,255,255,0.25)" }}>Stockholm, Sweden</p>
     </main>
   );
 }
+
 
 // ============================================================
 // APP
@@ -574,3 +593,4 @@ export default function Portfolio() {
     </div>
   );
 }
+// cache bust Sun Mar 15 14:30:43 CET 2026
