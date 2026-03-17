@@ -157,49 +157,46 @@ const caseData = {
     gradient: "linear-gradient(135deg, #1a0e2e 0%, #3b1f6e 100%)",
     subtitle: "Civic Tech - Solo Product",
     title: "Built Alone. Not Alone.",
-    intro: "In 2019, I submitted a product idea to Hyper Island: a platform where people could have real conversations across disagreement, with an AI quietly surfacing the patterns that make dialogue break down. It got me in. Then I set it aside — the technology wasn't ready.\n\nFast forward to 2026. The tech is there. I'm on parental leave. Evenings after the kids are in bed. Planets aligned. I built it.",
+    intro: "Chattitude is a structured conversation tool where AI surfaces the rhetorical patterns that make dialogue break down. Two people talk. The AI listens for dirty tricks — strawmanning, ad hominem, false dilemmas — and feeds it back in real time. Not to punish, but to make people aware of what they're doing.\n\nI pitched the concept in 2019 as my application to Hyper Island's Design Lead program. It got me in. The same idea won third place in the Datastory Summer Challenge that year. Then I set it aside — the technology to build it didn't exist yet.\n\nIn 2026, it did. I built it alone, evenings during parental leave, using Claude as both coding partner and strategic sparring partner. What follows is what I made, what I learned, and where my process fell short.",
     sections: [
       {
         label: "Origin",
-        headline: "Constraints kill ideas before they're born.",
-        body: "Drop a link into a heated thread. It becomes an invitation to have the same conversation differently — with structure, with feedback, with something watching for the habits that make people stop listening.\n\nI knew the technology wasn't ready. I pitched it anyway. Assume the constraint away, follow the idea, figure out feasibility second.",
+        headline: "An idea worth describing before it was worth building.",
+        body: "The 2019 pitch started from a question: what if you could make online disagreement constructive instead of destructive? The concept was a platform where you'd drop a link into a heated thread, and it would become an invitation to have the same conversation differently — with structure, with AI feedback, with something watching for the habits that make people stop listening.\n\nI knew the technology wasn't there. I pitched it anyway, because the idea had value even if it couldn't be built yet. I tend to work that way — assume the constraint away, follow the idea, figure out feasibility second. The pitch had research, a philosophical foundation in Carl Rogers' work on empathetic listening, and a clear product vision. It was enough to win a competition and get into Hyper Island. The constraint was real, but it was also temporary.",
         detail: [
           { label: "Role", value: "Strategy, design, development" },
-          { label: "Built with", value: "Claude API, React" },
-          { label: "Stage", value: "Working MVP, validation phase" },
+          { label: "Built with", value: "Claude API, React, Firebase" },
+          { label: "Stage", value: "Working MVP" },
           { label: "Timeline", value: "November 2025 – January 2026, parental leave", wide: true },
+        ],
+        image: true,
+        imageSrc: [
+          { src: "/images/chattitude/comparison.png", caption: "2019 pitch concept (left) — 2026 built product (right)" },
         ],
       },
       {
-        label: "The Pivot",
-        headline: "Good input. Wrong direction.",
-        body: "Mid-build, an old friend and PhD in social anthropology asked who this was actually for. We were in a sauna. He suggested anonymous matching, high scores, a bigger market. It was good input. It was also the wrong direction — it optimised for reach, not impact.\n\nColder than the plunge pool after. That question didn't leave.\n\nI kept bringing it back to Claude. Days of back and forth. Until something clearer emerged: two completely different products hiding inside the same concept. Public debate training for people who want to win. And something quieter — for people who just want to stay in the room. For people who care enough to show up but have learned it's safer not to.\n\nThat second product is harder to build, harder to sell, and probably more needed. That's the one I chose.",
+        label: "The Build",
+        headline: "Solo. Evenings. Three decisions that shaped the product.",
+        body: "The build happened after the kids were asleep. Claude handled code, architecture, and debugging. I handled the product decisions. Three of them defined what Chattitude became.\n\nThe first was the shared health bar. Instead of tracking each person's score separately, both participants share one. When the conversation deteriorates, both lose. When it improves, both gain. You stop trying to win and start trying to keep the conversation alive. It's a single UI element, but it changes what the product is for.\n\nThe second was choosing who it's for. Early on I was building for public debate — Twitter arguments, political threads. A friend with a PhD in social anthropology asked me a simple question: who would actually use this? The answer wasn't strangers online. It was people who already care about each other — couples, friends, family — but struggle to talk about the hard stuff. That shifted the entire product.\n\nThe third was the 10-second send delay. Every message sits for ten seconds before it's delivered. It's friction by design — a pause that gives people space to read what they wrote and decide if that's really what they want to say.",
         image: true,
-        imageCaption: "The two arenas: where the product could go, and where it needed to go",
+        imageSrc: [
+          { src: "/images/chattitude/The-build.png", caption: "AI as thinking partner — product decisions, not just code" },
+        ],
       },
       {
-        label: "Product Logic",
-        headline: "Most of the decisions were things not to do.",
-        body: "No anonymous debate matching — too disconnected from the relationships where this actually matters.\n\nNo high scores — they'd reward winning, not understanding.\n\nNo 'debate training' framing — wrong signal entirely.\n\nWhat replaced the scoreboard: a shared health bar. Both participants responsible for the same conversation. Not your performance versus theirs — your collective ability to stay in the room together.\n\nThe AI analysis runs at a 75% confidence threshold before influencing a user's score. A 10-second pause before messages send. Each constraint came from the same recurring question: does this support the conversation, or does it turn into a weapon?",
-        image: true,
-        imageCaption: "From 2019 pitch sketch to finished product — the vision that held",
-      },
-      {
-        label: "Building with AI",
-        headline: "Weeks, not months. One person, not a team.",
-        body: "The actual build happened in evenings after the kids were asleep. Claude handled code generation, architecture, and debugging — the kind of work that usually takes a cross-functional team several months.\n\nBut the speed only meant something because the strategic work came first. The arguments about audience, the debates about what listening actually requires, the deliberate boundary-testing about what the product should refuse to become — all of that happened before a single component was written. AI compresses the distance between decision and execution. It doesn't generate the decisions worth making.",
-        image: true,
-        imageCaption: "The workflow: conviction first, execution second",
+        label: "The Honest Part",
+        headline: "I worked as if I had user insights. I didn't.",
+        body: "For a while, the internal process worked. I stress-tested decisions in my head, used Claude to challenge my reasoning, and built from analysis rather than feedback. The health bar came from that. The arena pivot came from that. Genuine product thinking happened.\n\nBut at some point the insights dried up. I'd exhausted what I could figure out alone. The next step needed real people, real reactions, real friction — and that turned out to be harder and more exposing than anything I'd built.\n\nI'd mistaken rigorous thinking for validation. They feel similar when you're in it. They're not the same thing. Analysis in your head can take you surprisingly far, but it can't tell you when it's stopped being enough.\n\nThat's the most useful thing this project taught me. Not the health bar, not the AI workflow, not the MVP. The knowledge that I now know exactly where in my process I need real people — and it's earlier than I thought.",
       },
     ],
     outcomes: [
-      "Concept to working MVP in weeks — evenings, solo, during parental leave",
-      "Used AI as a thinking partner for product decisions as much as implementation",
-      "Learned the hardest lesson: the difference between a problem you have and a problem others will pay to solve",
+      "Concept to working MVP, solo, in weeks — strategy, design, and code",
+      "AI as sparring partner for product decisions, not just a code generator",
+      "The lesson: I now know where in my process I need real users. It's earlier than I assumed.",
     ],
     tensions: [
-      { title: "AI makes you faster. It doesn't make you right.", body: "Every output needed judgment. The risk isn't bad code — it's plausible-sounding direction that nobody stops to question. The sparring only worked because I was willing to be wrong." },
-      { title: "What started as a fun challenge ended up asking uncomfortable questions.", body: "About demand, about personal need, about how much one person can carry alone. That's not a failure — it's the most useful thing the project taught me." },
+      { title: "AI makes you faster. It doesn't make you right.", body: "Every output needed judgment. The risk isn't bad code — it's plausible-sounding direction that nobody questions because it sounds reasonable. The collaboration only worked because I treated Claude as a challenger, not an oracle." },
+      { title: "What started as a fun build ended up asking uncomfortable questions.", body: "I built Chattitude because I wanted to see if I could. What it taught me was about my own process, not the product. That wasn't the plan. It's more valuable than the plan was." },
     ],
     next: { title: "Brands That Last", subtitle: "Brand Identity & Strategy", id: "grenkultur", accent: "#86efac" },
   },
@@ -336,7 +333,7 @@ const aboutData = {
 
 const homeCards = [
   { id: "meter", title: "Load-Bearing Design", subtitle: "Pre-Seed Healthtech - Product Design", tags: "Product • UX/UI • Data Visualization", tag: "Product design from zero", desc: "Building a design framework from scratch — and stress-testing every product decision along the way.", gradient: "linear-gradient(135deg, #0a2e1f 0%, #1a5c40 100%)", accent: "#4ade80" },
-  { id: "chattitude", title: "Built Alone. Not Alone.", subtitle: "Civic Tech - Solo Product", tags: "Product • Strategy • AI Collaboration", tag: "Solo build with AI sparring", desc: "Concept to working MVP — one person, evenings during parental leave. The hardest part wasn't the building. It was figuring out what to build, and why.", gradient: "linear-gradient(135deg, #1a0e2e 0%, #3b1f6e 100%)", accent: "#a78bfa" },
+  { id: "chattitude", title: "Built Alone. Not Alone.", subtitle: "Civic Tech - Solo Product", tags: "Product • Strategy • AI Collaboration", tag: "Pitched in 2019. Built in 2026.", desc: "An idea that won a competition and got me into Hyper Island — then waited six years for the technology to catch up. What I built, and what I learned about the limits of my own process.", gradient: "linear-gradient(135deg, #1a0e2e 0%, #3b1f6e 100%)", accent: "#a78bfa" },
   { id: "enterprise", title: "Room to Lead", subtitle: "Klingit & PwC Experience Center", tags: "UX/UI • Consulting • Enterprise • Scale-up", tag: "Startup speed. Big Four stamp.", desc: "What two very different environments taught me about where I do my best work — and what happens when I'm given the room to own it.", gradient: "linear-gradient(135deg, #111127 0%, #2a2a4a 100%)", accent: "#818cf8" },
   { id: "grenkultur", title: "Brands That Last", subtitle: "Brand Identity & Strategy", tags: "Brand Identity • Strategy • Visual Design", tag: "Brand identities built to last", desc: "Brand identities that businesses continue using years after launch.", gradient: "linear-gradient(135deg, #0a2e12 0%, #2d5a1e 100%)", accent: "#86efac" },
 ];
@@ -445,7 +442,29 @@ function SectionBlock({ section, accent, accentRgb, isMobile, index }) {
   );
 
   const imageBlock = showImage ? (
-    <ImageCarousel accent={accentRgb} caption={section.imageCaption} src={section.imageSrc} isMobile={isMobile} />
+    section.sideBySide && section.imageSrc && section.imageSrc.length === 2 ? (
+      <div style={{ display: "flex", flexDirection: isMobile ? "column" : "row", gap: isMobile ? 12 : 16, width: isMobile ? "100%" : "auto", flexShrink: 0 }}>
+        {section.imageSrc.map((img, i) => (
+          <div key={i} style={{ flex: 1 }}>
+            <div style={{ borderRadius: 8, overflow: "hidden", aspectRatio: isMobile ? "4 / 3" : "3 / 4" }}>
+              {img.src ? (
+                <img src={img.src} alt={img.caption || ""} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              ) : (
+                <div style={{ width: "100%", height: "100%", minHeight: 200, background: `linear-gradient(135deg, rgba(${accentRgb},0.08) 0%, rgba(${accentRgb},0.02) 100%)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <div style={{ textAlign: "center" }}>
+                    <div style={{ width: 48, height: 48, borderRadius: 12, background: `rgba(${accentRgb},0.1)`, border: `1px solid rgba(${accentRgb},0.15)`, display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px auto", fontSize: 14, color: "rgba(255,255,255,0.2)" }}>IMG</div>
+                    <span style={{ fontSize: 12, color: "rgba(255,255,255,0.2)" }}>Image placeholder</span>
+                  </div>
+                </div>
+              )}
+            </div>
+            {img.caption && <p style={{ fontSize: 12, color: "rgba(255,255,255,0.3)", fontStyle: "italic", margin: "10px 0 0 0" }}>{img.caption}</p>}
+          </div>
+        ))}
+      </div>
+    ) : (
+      <ImageCarousel accent={accentRgb} caption={section.imageCaption} src={section.imageSrc} isMobile={isMobile} />
+    )
   ) : null;
 
   return (
