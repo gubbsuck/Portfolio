@@ -96,57 +96,61 @@ const caseData = {
     gradient: "linear-gradient(135deg, #0a2e1f 0%, #1a5c40 100%)",
     subtitle: "Pre-Seed Healthtech - Product Design",
     title: "Load-Bearing Design",
-    intro: "Three people, no funding, and a product that existed as an API and rough sketches. No design language, no established decisions — just a founder with strong opinions and a designer willing to stress-test every single one of them.\n\nThe friction was the process. Most of what held up, held up better for having been challenged.",
+    intro: "The wearable sat on the desk for a couple of weeks. A smartwatch, lent by the founder, meant to help me understand what the product was actually supposed to solve. I didn't put it on. Not out of disinterest — I felt strange about sharing that kind of data about myself. My body, measured and uploaded. It took a while to notice the contradiction: I already liked the step counter on my phone, already checked Sleep Cycle every morning to see how the night had gone. That was half of what Meter did. Daniel asked a few times whether I'd started wearing it. I kept saying not yet. But as the design work moved closer to implementation, I realized I couldn't test what I was building without weeks of accumulated data on my own wrist. At some point it became untenable not to put it on.\n\nMeter aggregates health data from wearables into a single view. Fitness, recovery, nutrition — brought together and made legible, at a time when most apps either buried users in numbers or talked down to them like patients. The founder, Daniel, had spent months embedded in Reddit communities, learning directly from the people who would eventually use the product. He knew his users the way you know people you've actually lived alongside. The backend existed. The community existed. What didn't was a designer who understood any of it.\n\nThat was me.",
     sections: [
       {
         label: "Context",
-        headline: "A serious product. No design foundation yet.",
-        body: "Meter aggregates health data from multiple wearables into a single view. The founder had spent months embedded in Reddit communities, building firsthand knowledge of what users wanted and why. He'd validated demand the hard way, and had investors ready to commit pending 1–5% conversion proof. What the product needed was a user-ready beta to get there.\n\nThe backend existed. The community existed. What didn't was any coherent visual language, interaction logic, or agreed-upon product structure. Before I could design anything I needed to understand the product from the inside — the founder lent me a GPS watch so I could actually collect data and feel what the experience was supposed to solve.\n\nThe usual UX process — structured research, documented insights — wasn't the foundation here. The founder had deep knowledge of his users, built through direct immersion rather than formal methods. Learning to work from that, and to choose my challenges carefully rather than questioning everything equally, took time to calibrate.",
+        headline: "In i något främmande.",
+        body: "The team was three people. Daniel, a developer named Timmy, and me. The other two were users — they tracked, they optimized, they spoke the language fluently. I was the one asking what HRV meant.\n\nThere were long phone calls in the beginning. Daniel was good at explaining the features, the technical architecture, the product logic. What I struggled to grasp was simpler and harder at the same time: why would someone need this? What does it feel like to actually want it? The calls went back and forth. I took notes. I benchmarked competitors. I did the things a designer does when they're trying to understand something from the outside.\n\nThen I put the watch on.\n\nIt didn't make me a health optimizer. But something shifted. Waking up and having a number waiting for you — a recovery score, a readiness signal — changes how you relate to the data. It stopped being abstract. It became something that was measuring me, specifically, every night while I slept. That's when I started to understand what the product was for.",
+        image: true,
+        imageSrc: [{ src: "/images/meter/team-meeting.png", caption: "The team — Wednesday meeting, Meter Community Discord", landscape: true }],
         detail: [
           { label: "Role", value: "Founding Product Designer" },
           { label: "Team", value: "Founder, developer, me" },
           { label: "Stage", value: "Pre-seed, investor-ready beta" },
-          { label: "Scope", value: "Home, Settings, Onboarding, Activity, Body Status, Nutrition Form, Strength Assessment, Splash Screens, No-data states, App Store assets", wide: true },
+          { label: "Scope", value: "Dashboard, Onboarding, Activity, Body Status, Benefits, Routine Score, Nutrition, Strength Assessment, Splash screens, No-data states, App Store assets", wide: true },
+        ],
+      },
+      {
+        label: "Approach",
+        headline: "Two people. Two very different methods.",
+        body: "Daniel sketched in PowerPoint. Quickly, directly, without worrying about how it looked — small screenshots, rough embryos of ideas, sent over at odd hours. It looked like scrap. But something was always being built.\n\nI don't work that way. I process things in my head and my heart first — sit with a problem until it has weight, until I understand what it wants to become. Then I give it life: a logotype, a feature, a direction. Then I refine. That's always been my way. We were as different as two people on the same project can be.\n\nHe said it often, when I questioned a sketch or pushed back on an approach: testa. Just try it. Not as a dismissal — as a method. Startup thinking. Rapid sketching. The ability to drop an idea you've worked on for a week the moment a better one shows up.\n\nIt made me uncomfortable. Then it made me better.",
+        sideBySide: true,
+        imageSrc: [
+          { src: "/images/meter/actual-lo-fi-UI.PNG", caption: "Early build — no data, no styling, just structure" },
+          { src: "/images/meter/Actual-hi-fi-ui-01.PNG", caption: "Final hi-fi — Karl's data, Karl's design, implemented" },
         ],
       },
       {
         label: "Framework",
         headline: "Spotify as a strategic decision, not a mood board.",
-        body: "The first structural call was what to design against. Meter's competitors either buried users in data or talked down to them — overly technical on one end, paternalistic on the other. Spotify handles deep complexity with a calm, democratic visual language that scales across dozens of surfaces without losing coherence. That tension — sophisticated without being intimidating — was exactly what Meter needed to resolve.\n\nIt gave us a shared reference point for every visual decision that followed.",
-        image: true,
-        imageCaption: "Design framework: visual language built for scale",
+        body: "The first structural call was what to design against. Meter's competitors split into two camps: the ones that buried users in data, and the ones that treated them like patients who needed managing. Neither was right for a product that wanted to be taken seriously by people who already knew a lot about their own health.\n\nSpotify handles deep complexity with a calm, democratic visual language — sophisticated without being intimidating, scalable across dozens of surfaces without losing coherence. That tension was exactly what Meter needed to resolve. It wasn't a mood board reference. It was a strategic decision that gave us a shared compass for every visual call that followed.",
+        sideBySide: true,
+        imageSrc: [
+          { src: "/images/meter/spotify-reference.PNG", caption: "Spotify — complex data, calm visual language" },
+          { src: "/images/meter/meter-final.PNG", caption: "Meter — same principle, different product" },
+        ],
       },
       {
-        label: "Pressure",
-        headline: "The job was to make sure nothing survived by default.",
-        body: "The working method was direct. I interrogated every product decision — from information architecture to feature logic — until it either held up or we changed it. Not every challenge landed. Maybe one in ten conversations ended in a pivot. Frustration came and went on both sides. The process continued.\n\nThe point wasn't to win arguments. It was to make sure nothing survived by default. Benefits is the clearest example: the idea surfaced in one of those push-back conversations — the founder arrived at it himself, under pressure, working through the logic out loud. That's how it should work.",
-        image: true,
-        imageCaption: "Benefits feature: born from a push-back conversation",
-      },
-      {
-        label: "Design",
-        headline: "Lo-fi in structure. Hi-fi in detail. No shortcuts.",
-        body: "The process was a hybrid: wireframes built in greyscale but at enough fidelity that moving to hi-fi meant applying colour, light and shadow — not rethinking layout. At a startup with no runway for false starts, that discipline kept things moving.\n\nThe dashboard was the core surface. The Activity view was particularly stubborn — there was a lot the product wanted to communicate in very little space, and at one point the founder jumped into Figma to sketch alongside me. Looking at what the current version of Meter simplified, it's clear that tension was real. Sometimes a product has to find that out for itself.",
-        image: true,
-        imageCaption: "Lo-fi wireframes to hi-fi: dashboard and activity view",
-      },
-      {
-        label: "Initiative",
-        headline: "One search. 300 members.",
-        body: "I asked where Garmin users actually hang out. Ten minutes later we had a Discord server. It grew to 200 during my time, 300+ since. The most engaged members became an active feedback layer — dedicated channels where they tested flows, filed bugs, and debated features. The community became the product's nervous system.",
-        image: true,
-        imageCaption: "Community as product team: contributor channels and growth",
+        label: "The Work",
+        headline: "Questions that shaped the product.",
+        body: "Early on I flagged that Health Score and Routine Score drew from the same data but never spoke to each other. A good routine should move your health score — but the architecture didn't allow it. Daniel pushed back. It was technically out of reach. But the question didn't go away. It shaped how the team thought about what the product was for.\n\nEvery Wednesday, one to three hours. Daniel and Timmy were the users — they came from the Reddit communities, they knew the frustrations firsthand. I came from outside. That division of knowledge was the structure: they stress-tested each other's assumptions, I asked the questions a first-time user might ask, and we documented what held up.\n\nBenefits came out of one of those sessions. Not from a brief, but from a push-back conversation where the founder worked through the logic out loud and arrived at something that hadn't been on anyone's list.",
+        threeImages: [
+          { src: "/images/meter/ben-2.png", caption: "Early concept — health benefits as zones", natural: true },
+          { src: "/images/meter/benefits-shields-process.jpg", caption: "Shield form iterations — five rounds before it held", position: "top center" },
+          { src: "/images/meter/ben-final-ui.png", caption: "Final Benefits screen — bookmark form, colour-coded by status", position: "top center" },
+        ],
       },
     ],
     outcomes: [
-      "Visual language and interaction framework across eleven product surfaces",
-      "300+ Discord members, core group actively shaping the product",
-      "Benefits feature: surfaced through push-back, became a core product pattern",
+      "A design foundation that held up under weekly scrutiny — and gave the product something concrete to build from",
+      "Benefits: a core feature that emerged from push-back, not a brief",
+      "300+ Discord members, seeded by one search, became the product's active feedback layer",
     ],
     tensions: [
       { title: "I proposed a rebrand. The founder said no.", body: "Late in the project I pushed for significant identity changes. He had reasons to keep things as they were. I executed his vision at the highest level I could. Sometimes that's the right call." },
-      { title: "My design didn't make it into v2. There is no v2 without v1.", body: "I checked in with the founder a year later. Nothing had survived — new designer, new vision, rebuilt architecture. That's startup reality. But the work served its purpose: it gave the product something concrete to react to, something to build from and eventually move beyond. Early-stage design work isn't meant to last forever. It's meant to get the product to the next phase." },
-      { title: "Vision as a decision filter.", body: "Brand thinking and product thinking aren't in conflict — they share the same foundation. A clear long-term vision makes individual product decisions faster and more consistent. That's what I brought to the table, and it's what made the friction productive rather than just difficult." },
+      { title: "My design didn't make it into v2. There is no v2 without v1.", body: "What I learned after I'd moved on was that Daniel had been using my designs to recruit. When he showed the work to potential developers, it helped them see what the product could be. A new team came together around that vision. I didn't know that at the time. I'm glad the work carried weight after I left." },
+      { title: "Two people, two methods.", body: "He built fast and tested everything. I wanted to validate before touching Figma. By the end I could do both. That gap closing was the most useful thing the project gave me." },
     ],
     next: { title: "Built Alone. Not Alone.", subtitle: "AI-Built Civic Tech", id: "chattitude", accent: "#a78bfa" },
   },
@@ -156,28 +160,23 @@ const caseData = {
     accentRgb: "167,139,250",
     gradient: "linear-gradient(135deg, #1a0e2e 0%, #3b1f6e 100%)",
     subtitle: "Civic Tech - Solo Product",
-    title: "Built Alone. Not Alone.",
-    intro: "Chattitude is a structured conversation tool where AI surfaces the rhetorical patterns that make dialogue break down. Two people talk. The AI listens for dirty tricks — strawmanning, ad hominem, false dilemmas — and feeds it back in real time. Not to punish, but to make people aware of what they're doing.\n\nI pitched the concept in 2019 as my application to Hyper Island's Design Lead program. It got me in. The same idea won third place in the Datastory Summer Challenge that year. Then I set it aside — the technology to build it didn't exist yet.\n\nIn 2026, it did. I built it alone, evenings during parental leave, using Claude as both coding partner and strategic sparring partner. What follows is what I made, what I learned, and where my process fell short.",
+    title: "The Conversation No One Wants To Have",
+    intro: "Online dialogue can seem broken. Exhaustingly foul, vicious, hateful. But maybe it's not broken — maybe it's just immature.\n\nLike road rage — comment sections are our freeways. We navigate them either with a fist in our pocket or a finger through the windshield. Behind a screen, like behind a wheel, something shifts. The screen gives us courage we wouldn't otherwise have — and not always the good kind.\n\nWhat I didn't think about early enough was the flip side of that: if the screen gives people courage to be cruel, it also takes away their courage to be vulnerable. And vulnerability is the whole game. Without it, no conversation worth having can even start.\n\nChattitude was built around that idea. Two people, one shared topic, an AI quietly listening for the habits that make dialogue collapse — and feeding it back in real time. Not to punish. To create a moment of awareness.\n\nI first pitched the concept in 2019. It got me into Hyper Island and third place in the Datastory Summer Challenge. Then I set it aside — the technology wasn't there yet. In 2026, it was. I built it alone, evenings during parental leave, using Claude as both coding engine and thinking partner. Here's what happened.",
     sections: [
       {
         label: "Origin",
-        headline: "An idea worth describing before it was worth building.",
-        body: "The 2019 pitch started from a question: what if you could make online disagreement constructive instead of destructive? The concept was a platform where you'd drop a link into a heated thread, and it would become an invitation to have the same conversation differently — with structure, with AI feedback, with something watching for the habits that make people stop listening.\n\nI knew the technology wasn't there. I pitched it anyway, because the idea had value even if it couldn't be built yet. I tend to work that way — assume the constraint away, follow the idea, figure out feasibility second. The pitch had research, a philosophical foundation in Carl Rogers' work on empathetic listening, and a clear product vision. It was enough to win a competition and get into Hyper Island. The constraint was real, but it was also temporary.",
-        detail: [
-          { label: "Role", value: "Strategy, design, development" },
-          { label: "Built with", value: "Claude API, React, Firebase" },
-          { label: "Stage", value: "Working MVP" },
-          { label: "Timeline", value: "November 2025 – January 2026, parental leave", wide: true },
-        ],
+        headline: "Seven years later, the constraint was gone.",
+        body: "My observation — shared by many — is that people struggle with their impulses online in ways they rarely do face to face. Algorithms pull us in directions we don't always choose consciously. Filter bubbles narrow what we're exposed to. Identity politics grows louder than the quieter, more productive tension that comes from genuine difference. And somewhere in that noise, tolerance for people who think differently quietly shrinks.\n\nIt was worth designing around.\n\nWhat if something could quietly surface the habits that make dialogue collapse — in real time? Not to punish. To make people aware. And maybe try something differently.\n\nThe research foundation was there. Carl Rogers on empathetic listening. Kahneman and Tversky on how our instinctive reactions tend to outrun our better judgement. Alexander Norén's work on nudging — the idea that behaviour changes when the environment changes, not when people are told to. All pointing in the same direction: build the right environment and people might surprise themselves.\n\nThe habits in question are well-documented — strawmanning, loaded questions, ad hominem attacks, and their constructive counterparts. The product knows the difference.\n\nI knew the technology wasn't there. I pitched it anyway. Assume the constraint away, follow the idea, figure out feasibility second. It was enough to win and get into Hyper Island.\n\nSeven years later, the constraint was gone.",
         image: true,
         imageSrc: [
           { src: "/images/chattitude/comparison.png", caption: "2019 pitch concept (left) — 2026 built product (right)" },
+          { src: "/images/chattitude/techniques.jpg", caption: "Destructive vs constructive techniques — surfaced in real time" },
         ],
       },
       {
         label: "The Build",
-        headline: "Solo. Evenings. Three decisions that shaped the product.",
-        body: "The build happened after the kids were asleep. Claude handled code, architecture, and debugging. I handled the product decisions. Three of them defined what Chattitude became.\n\nThe first was the shared health bar. Instead of tracking each person's score separately, both participants share one. When the conversation deteriorates, both lose. When it improves, both gain. You stop trying to win and start trying to keep the conversation alive. It's a single UI element, but it changes what the product is for.\n\nThe second was choosing who it's for. Early on I was building for public debate — Twitter arguments, political threads. A friend with a PhD in social anthropology asked me a simple question: who would actually use this? The answer wasn't strangers online. It was people who already care about each other — couples, friends, family — but struggle to talk about the hard stuff. That shifted the entire product.\n\nThe third was the 10-second send delay. Every message sits for ten seconds before it's delivered. It's friction by design — a pause that gives people space to read what they wrote and decide if that's really what they want to say.",
+        headline: "Three decisions. One made everything else make sense.",
+        body: "The build happened after the kids were asleep. Claude handled the code. I handled the calls.\n\nThree decisions defined what Chattitude became.\n\nThe shared health bar. Instead of tracking each person's score separately, both participants share one. When the conversation deteriorates, both lose. When it improves, both gain. You stop trying to win and start trying to keep the conversation alive. It's a single UI element, but it changes what the product is for.\n\nThe second was choosing who it's for. I was building for public debate — Twitter arguments, political threads. Then a friend with a PhD in social anthropology asked me a simple question in a sauna: who would actually use this? Not strangers. People who already care about each other — couples, friends, family — but struggle with the hard conversations. That shifted everything.\n\nThe third was the 10-second send delay. Every message sits for ten seconds before it's delivered. Friction by design. A pause that asks: is this really what you want to say?",
         image: true,
         imageSrc: [
           { src: "/images/chattitude/The-build.png", caption: "AI as thinking partner — product decisions, not just code" },
@@ -185,18 +184,18 @@ const caseData = {
       },
       {
         label: "The Honest Part",
-        headline: "I worked as if I had user insights. I didn't.",
-        body: "For a while, the internal process worked. I stress-tested decisions in my head, used Claude to challenge my reasoning, and built from analysis rather than feedback. The health bar came from that. The arena pivot came from that. Genuine product thinking happened.\n\nBut at some point the insights dried up. I'd exhausted what I could figure out alone. The next step needed real people, real reactions, real friction — and that turned out to be harder and more exposing than anything I'd built.\n\nI'd mistaken rigorous thinking for validation. They feel similar when you're in it. They're not the same thing. Analysis in your head can take you surprisingly far, but it can't tell you when it's stopped being enough.\n\nThat's the most useful thing this project taught me. Not the health bar, not the AI workflow, not the MVP. The knowledge that I now know exactly where in my process I need real people — and it's earlier than I thought.",
+        headline: "Realising I was building for me instead of the world.",
+        body: "It was fun. Moving fast, skipping steps, building in flow. No user interviews, no validation rounds — just conviction and momentum. And for a while, that felt like enough.\n\nGetting into Hyper Island with the idea. Placing third in a competition. That felt like validation. And it was — just not the kind that matters when you're building a product. A jury finding an idea interesting and a user needing it badly enough to change their behaviour are two completely different things. I didn't make that distinction. I didn't even know I needed to.\n\nWhat I didn't see — couldn't see — was that the person who needed this product most was me. I genuinely believed I was solving something universal. The painful part wasn't finding out I was wrong. It was finding out I hadn't even asked the right question.\n\nThe need for a feature lives with the user. I knew that in theory. This project taught me what it actually means — not from a book, but from the specific sting of realising it too late.\n\nI wasn't hiding anything. I just never thought to ask. When you're that convinced, the question doesn't even occur to you.",
       },
     ],
     outcomes: [
-      "Concept to working MVP, solo, in weeks — strategy, design, and code",
-      "AI as sparring partner for product decisions, not just a code generator",
-      "The lesson: I now know where in my process I need real users. It's earlier than I assumed.",
+      "Concept to working MVP in weeks — strategy, design, and code, solo",
+      "A single UI decision that reframes what a conversation product is for",
+      "The clearest lesson: the need for a feature lives with the user, not the builder",
     ],
     tensions: [
-      { title: "AI makes you faster. It doesn't make you right.", body: "Every output needed judgment. The risk isn't bad code — it's plausible-sounding direction that nobody questions because it sounds reasonable. The collaboration only worked because I treated Claude as a challenger, not an oracle." },
-      { title: "What started as a fun build ended up asking uncomfortable questions.", body: "I built Chattitude because I wanted to see if I could. What it taught me was about my own process, not the product. That wasn't the plan. It's more valuable than the plan was." },
+      { title: "AI makes you faster. It doesn't make you right.", body: "Every output needed judgment. The risk isn't bad code. It's plausible-sounding direction that nobody stops to question. The collaboration only worked because I treated Claude as a challenger, not an oracle." },
+      { title: "What started as a fun build ended up asking uncomfortable questions.", body: "About demand, about personal need, about how much one person can carry alone. That's not a failure. It's the most useful thing the project taught me." },
     ],
     next: { title: "Brands That Last", subtitle: "Brand Identity & Strategy", id: "grenkultur", accent: "#86efac" },
   },
@@ -387,7 +386,11 @@ function ImageCarousel({ accent, caption, src, isMobile }) {
     setTouchStart(null);
   };
 
-  const containerStyle = isMobile
+  const isLandscape = images && images[0] && images[0].landscape;
+
+  const containerStyle = isLandscape
+    ? { position: "relative", borderRadius: 8, overflow: "hidden", cursor: count > 1 ? "pointer" : "default", width: "100%", aspectRatio: "16 / 9" }
+    : isMobile
     ? { position: "relative", borderRadius: 8, overflow: "hidden", cursor: count > 1 ? "pointer" : "default", width: "100%", aspectRatio: "1 / 1" }
     : { position: "relative", borderRadius: 8, overflow: "hidden", cursor: count > 1 ? "pointer" : "default", width: 420, height: 420, flexShrink: 0 };
 
@@ -415,6 +418,65 @@ function ImageCarousel({ accent, caption, src, isMobile }) {
         )}
       </div>
       {currentCaption && <p style={{ fontSize: 12, color: "rgba(255,255,255,0.3)", fontStyle: "italic", margin: "10px 0 0 0" }}>{currentCaption}</p>}
+    </div>
+  );
+}
+
+function ThreeImageRow({ images, accentRgb, isMobile }) {
+  return (
+    <div style={{
+      display: "flex",
+      flexDirection: isMobile ? "column" : "row",
+      gap: isMobile ? 16 : 20,
+      width: "100%",
+      marginTop: isMobile ? 32 : 48,
+      alignItems: "flex-start",
+    }}>
+      {images.map((img, i) => (
+        <div key={i} style={{ flex: 1, minWidth: 0 }}>
+          {img.natural ? (
+            <img
+              src={img.src}
+              alt={img.caption || ""}
+              style={{
+                width: "100%",
+                height: "auto",
+                display: "block",
+                borderRadius: 8,
+              }}
+            />
+          ) : (
+            <div style={{
+              borderRadius: 8,
+              overflow: "hidden",
+              aspectRatio: "1 / 1",
+              background: `linear-gradient(135deg, rgba(${accentRgb},0.08) 0%, rgba(${accentRgb},0.02) 100%)`,
+            }}>
+              <img
+                src={img.src}
+                alt={img.caption || ""}
+                style={{
+                  width: img.scale ? img.scale : "100%",
+                  height: img.scale ? img.scale : "100%",
+                  objectFit: "cover",
+                  objectPosition: img.position || "center",
+                  display: "block",
+                  transformOrigin: img.position || "center",
+                }}
+              />
+            </div>
+          )}
+          {img.caption && (
+            <p style={{
+              fontSize: 12,
+              color: "rgba(255,255,255,0.3)",
+              fontStyle: "italic",
+              margin: "10px 0 0 0",
+              lineHeight: 1.5,
+            }}>{img.caption}</p>
+          )}
+        </div>
+      ))}
     </div>
   );
 }
@@ -491,6 +553,9 @@ function SectionBlock({ section, accent, accentRgb, isMobile, index }) {
           {textBlock}
           {imageBlock}
         </div>
+      )}
+      {section.threeImages && (
+        <ThreeImageRow images={section.threeImages} accentRgb={accentRgb} isMobile={isMobile} />
       )}
       {section.outcomes && section.outcomes.length > 0 && (
         <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 10 }}>
