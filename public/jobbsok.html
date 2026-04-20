@@ -111,6 +111,19 @@
 <button class="add-btn" onclick="addTask()">+ Lägg till task</button>
 
 <script>
+const PWD = 'Track1951';
+function checkAuth() {
+  if (sessionStorage.getItem('jobbsok_auth')) return true;
+  const input = prompt('Lösenord:');
+  if (input === PWD) {
+    sessionStorage.setItem('jobbsok_auth', '1');
+    return true;
+  }
+  document.body.innerHTML = '<p style="padding:2rem;color:#999;font-family:sans-serif;">Fel lösenord.</p>';
+  return false;
+}
+if (checkAuth()) {
+
 const DEFAULT_TASKS = [
   { id: 'a1', text: 'Sökt annons', type: 'Annons' },
   { id: 'a2', text: 'Sökt annons', type: 'Annons' },
@@ -238,6 +251,7 @@ function addTask() {
 }
 
 render();
+} // end auth check
 </script>
 </body>
 </html>
